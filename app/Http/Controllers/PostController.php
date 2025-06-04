@@ -123,4 +123,6 @@ class PostController extends Controller
         Post::where('id', $id)->delete();
         return redirect('user_dashbored');
     }
+
+    
 }

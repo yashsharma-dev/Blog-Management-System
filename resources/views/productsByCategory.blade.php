@@ -42,7 +42,7 @@
             </thead>
 
             <tbody>
-                @foreach ($result as $row)
+                @foreach ($item as $row)
                     <tr>
                         <td>{{ $row->id }}</td>
 
